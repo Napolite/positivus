@@ -13,15 +13,10 @@
 
 body {
   margin: 0;
-  display: flex;
-  /* place-items: center; */
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
 }
-
 
 @font-face {
   font-family: painter;
-  src: url('./assets/fonts/SignPainterHouseScript.ttf');
+  src: url("./assets/fonts/SignPainterHouseScript.ttf");
 }
-
