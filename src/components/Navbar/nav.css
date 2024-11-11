@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+
+.main-logo {
+  width: fit-content;
+  height: fit-content;
+}
+
+.main-logo-image {
+  width: 219.54px;
+  height: 56px;
+}
+
+.navbar-links {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.navbar-link {
+  margin: 0 50px;
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+}
