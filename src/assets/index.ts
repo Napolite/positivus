@@ -8,6 +8,7 @@ import Dribble from "./images/dribble.svg";
 import Notion from "./images/notion.svg";
 import Arrow from "./images/arrow.svg";
 import ArrowC from "./images/arrow-contrast.svg";
+import Tab1 from "./images/tab 1.svg";
 
 export {
   PositivusLogo,
@@ -20,4 +21,5 @@ export {
   Notion,
   Arrow,
   ArrowC,
+  Tab1,
 };
