@@ -1,0 +1,24 @@
+.services-root {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.services-header {
+  display: flex;
+  align-items: center;
+}
+
+.services-header > div {
+  margin-right: 40px;
+  background-color: var(--green);
+  font-size: 40px;
+  padding: 0 10px;
+  /* height: fit-content; */
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.services-header > p {
+  width: 580px;
+  font-size: 18px;
+}

@@ -6,6 +6,8 @@ import Hubspot from "./images/hubspot.svg";
 import Netflix from "./images/netflix.svg";
 import Dribble from "./images/dribble.svg";
 import Notion from "./images/notion.svg";
+import Arrow from "./images/arrow.svg";
+import ArrowC from "./images/arrow-contrast.svg";
 
 export {
   PositivusLogo,
@@ -16,4 +18,6 @@ export {
   Netflix,
   Dribble,
   Notion,
+  Arrow,
+  ArrowC,
 };
