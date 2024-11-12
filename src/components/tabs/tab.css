@@ -16,9 +16,9 @@
   justify-content: space-between;
   /* place-content: center; */
   place-items: center;
-  padding: 50px 70px;
+  padding: 40px 70px;
   height: 210px;
-  width: 460px;
+  width: 520px;
   /* background-color: #f3f3f3; */
   border-radius: 45px;
   border: 1px solid black;
@@ -40,6 +40,7 @@
   /* background-color: var(--green); */
   width: fit-content;
   font-weight: 500;
+  padding: 0 5px;
 }
 
 .tab-root > img {

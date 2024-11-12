@@ -1,6 +1,6 @@
 import ServicesTab from "../../components/tabs/tab";
 import "./servicces.css";
-import { Tab1 } from "../../assets";
+import { services } from "../../Pages/P-Services/services.ts";
 
 function Services() {
   return (
@@ -14,49 +14,9 @@ function Services() {
         </p>
       </div>
       <div className="services">
-        <ServicesTab
-          topText={"Search engine"}
-          bottomtext={"optimisation"}
-          image={Tab1}
-          mainBG={"--grey"}
-          headerBG={"--green"}
-        />
-        <ServicesTab
-          topText={"Search engine"}
-          bottomtext={"optimisation"}
-          image={Tab1}
-          mainBG={"--grey"}
-          headerBG={"--green"}
-        />
-        <ServicesTab
-          topText={"Search engine"}
-          bottomtext={"optimisation"}
-          image={Tab1}
-          mainBG={"--grey"}
-          headerBG={"--green"}
-        />
-        <ServicesTab
-          topText={"Search engine"}
-          bottomtext={"optimisation"}
-          image={Tab1}
-          mainBG={"--grey"}
-          headerBG={"--green"}
-        />
-        <ServicesTab
-          topText={"Search engine"}
-          bottomtext={"optimisation"}
-          image={Tab1}
-          mainBG={"--grey"}
-          headerBG={"--green"}
-        />
-        <ServicesTab
-          topText={"Search engine"}
-          bottomtext={"optimisation"}
-          image={Tab1}
-          mainBG={"--grey"}
-          headerBG={"--green"}
-        />
-        =
+        {services?.map((service) => (
+          <ServicesTab {...service} />
+        ))}
       </div>
     </div>
   );

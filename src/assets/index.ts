@@ -9,6 +9,11 @@ import Notion from "./images/notion.svg";
 import Arrow from "./images/arrow.svg";
 import ArrowC from "./images/arrow-contrast.svg";
 import Tab1 from "./images/tab 1.svg";
+import Tab2 from "./images/tab2.svg";
+import Tab3 from "./images/tab3.svg";
+import Tab4 from "./images/tab4.svg";
+import Tab5 from "./images/tab5.svg";
+import Tab6 from "./images/tab6.svg";
 
 export {
   PositivusLogo,
@@ -22,4 +27,9 @@ export {
   Arrow,
   ArrowC,
   Tab1,
+  Tab2,
+  Tab3,
+  Tab4,
+  Tab5,
+  Tab6,
 };

@@ -6,18 +6,28 @@ import { Arrow } from "../../assets";
 
 interface Props {
   topText: string;
-  bottomtext: string;
+  bottomText: string;
   image: string;
   mainBG: string;
   headerBG: string;
+  fontColor: string;
+  ArrowK?: string;
 }
 
-function ServicesTab({ topText, bottomtext, image, mainBG, headerBG }: Props) {
+function ServicesTab({
+  topText,
+  bottomText,
+  image,
+  mainBG,
+  headerBG,
+  fontColor,
+  ArrowK,
+}: Props) {
   return (
     <div className="tab-root" style={{ backgroundColor: `var(${mainBG})` }}>
       <div className="tab-left">
         <div className="tab-header">
-          {[topText, bottomtext].map((text) => (
+          {[topText, bottomText].map((text) => (
             <div
               style={{
                 backgroundColor: `var(${headerBG})`,
@@ -28,8 +38,14 @@ function ServicesTab({ topText, bottomtext, image, mainBG, headerBG }: Props) {
           ))}
         </div>
         <div className="learn-more">
-          <img src={Arrow} />
-          <p>Learn More</p>
+          <img src={ArrowK ? ArrowK : Arrow} />
+          <p
+            style={{
+              color: `var(${fontColor})`,
+            }}
+          >
+            Learn More
+          </p>
         </div>
       </div>
 
