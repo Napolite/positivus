@@ -21,6 +21,42 @@ function Services() {
           mainBG={"--grey"}
           headerBG={"--green"}
         />
+        <ServicesTab
+          topText={"Search engine"}
+          bottomtext={"optimisation"}
+          image={Tab1}
+          mainBG={"--grey"}
+          headerBG={"--green"}
+        />
+        <ServicesTab
+          topText={"Search engine"}
+          bottomtext={"optimisation"}
+          image={Tab1}
+          mainBG={"--grey"}
+          headerBG={"--green"}
+        />
+        <ServicesTab
+          topText={"Search engine"}
+          bottomtext={"optimisation"}
+          image={Tab1}
+          mainBG={"--grey"}
+          headerBG={"--green"}
+        />
+        <ServicesTab
+          topText={"Search engine"}
+          bottomtext={"optimisation"}
+          image={Tab1}
+          mainBG={"--grey"}
+          headerBG={"--green"}
+        />
+        <ServicesTab
+          topText={"Search engine"}
+          bottomtext={"optimisation"}
+          image={Tab1}
+          mainBG={"--grey"}
+          headerBG={"--green"}
+        />
+        =
       </div>
     </div>
   );
