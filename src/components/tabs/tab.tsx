@@ -1,6 +1,4 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React from "react";
-
 import "./tab.css";
 import { Arrow } from "../../assets";
 
