@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: space-grotesk;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,4 +19,9 @@ body {
 @font-face {
   font-family: painter;
   src: url("./assets/fonts/SignPainterHouseScript.ttf");
+}
+
+@font-face {
+  font-family: space-grotesk;
+  src: url("./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf");
 }
