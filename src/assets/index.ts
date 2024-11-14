@@ -14,6 +14,7 @@ import Tab3 from "./images/tab3.svg";
 import Tab4 from "./images/tab4.svg";
 import Tab5 from "./images/tab5.svg";
 import Tab6 from "./images/tab6.svg";
+import MIH from "./images/mih.svg";
 
 export {
   PositivusLogo,
@@ -32,4 +33,5 @@ export {
   Tab4,
   Tab5,
   Tab6,
+  MIH,
 };

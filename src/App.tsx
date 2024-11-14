@@ -2,7 +2,7 @@ import "./App.css";
 import Clientele from "./components/clientele/clientele";
 import NavBar from "./components/Navbar/Navbar";
 import Landing from "./Pages/Landing/landing";
-import Services from "./Pages/P-Services/services";
+import Services from "./Pages/P-Services/services.tsx";
 
 function App() {
   return (
