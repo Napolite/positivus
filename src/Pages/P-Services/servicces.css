@@ -3,34 +3,12 @@
   margin-top: 100px;
 }
 
-.services-header {
-  display: flex;
-  align-items: center;
-}
-
-.services-header > div {
-  margin-right: 40px;
-  background-color: var(--green);
-  font-size: 40px;
-  padding: 0 10px;
-  /* height: fit-content; */
-  border-radius: 10px;
-  font-weight: 500;
-}
-
-.services-header > p {
-  width: 580px;
-  font-size: 18px;
-}
-
 .services {
   margin-top: 100px;
   width: 100%;
-  /* background-color: red; */
   display: grid;
   grid-template-columns: 55% 55%;
   row-gap: 100px;
-  /* background-color: red; */
 }
 
 .services-footer-main {
@@ -39,7 +17,6 @@
   background-color: var(--grey);
   margin-top: 100px;
   height: 347px;
-  /* padding: 0px 60px; */
   border-radius: 45px;
 }
 
@@ -77,7 +54,6 @@
 
 .services-footer-image {
   position: relative;
-  /* top: -30px; */
   width: 40%;
   display: flex;
   justify-content: center;

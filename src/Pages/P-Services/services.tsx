@@ -2,18 +2,21 @@ import ServicesTab from "../../components/tabs/tab";
 import "./servicces.css";
 import { services } from "../../Pages/P-Services/services.ts";
 import { MIH } from "../../assets/index.ts";
+import Title from "../../components/Title/title.tsx";
 
 function Services() {
   return (
     <div className="services-root">
-      <div className="services-header">
-        <div>Services</div>
-        <p>
-          At our digital marketing agency, we offer a range of services to
-          <br /> help businesses grow and succeed online. These services
-          include:
-        </p>
-      </div>
+      <Title
+        titleHeader="Services"
+        titleText={
+          <p>
+            At our digital marketing agency, we offer a range of services to{" "}
+            <br /> help businesses grow and succeed online. These services
+            include:
+          </p>
+        }
+      />
       <div className="services">
         {services?.map((service) => (
           <ServicesTab {...service} />
