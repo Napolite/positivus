@@ -1,0 +1,18 @@
+.study-sub {
+  width: 286px;
+  /* background-color: white; */
+  height: 183px;
+  /* margin: auto; */
+}
+.ss-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.ss-learn-more {
+  display: flex;
+}
+.ss-learn-more > div {
+  margin-right: 20px;
+  color: var(--green);
+}
