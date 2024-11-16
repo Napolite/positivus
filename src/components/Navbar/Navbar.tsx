@@ -1,5 +1,3 @@
-import React from "react";
-
 import { PositivusLogo } from "../../assets";
 import "./nav.css";
 
