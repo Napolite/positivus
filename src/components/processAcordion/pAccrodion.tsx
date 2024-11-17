@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./paccrodion.css";
 import { Minus, Plus } from "../../assets";
 interface Props {
