@@ -4,9 +4,23 @@ import { Minus, Plus } from "../../assets";
 
 function ProcessAccordion() {
   const [open, setOpen] = useState(true);
+  const [startAnim, setAnim] = useState(true);
+  const [openTab, setOpenTab] = useState(true);
   return (
-    <div className="p-acc-root">
-      <div className="p-acc-header">
+    <div
+      className="p-acc-root"
+      style={{
+        animation: openTab
+          ? "expandHeight 0.5s forwards"
+          : "contractHeight 0.5s forwards",
+      }}
+    >
+      <div
+        className="p-acc-header"
+        style={{
+          borderBottom: openTab ? "1px solid var(--black)" : "none",
+        }}
+      >
         <div className="p-acc-header-title">
           <div>01</div>
           <div>Consultation</div>
@@ -14,18 +28,34 @@ function ProcessAccordion() {
         <button
           className="process-button"
           onClick={() => {
-            setOpen(!open);
+            setAnim(!startAnim);
+            setOpenTab(!openTab);
+            setTimeout(() => setOpen(!open), 500);
           }}
         >
-          <img src={open ? Minus : Plus} />
+          <img
+            src={open ? Minus : Plus}
+            style={{
+              animation: `${
+                startAnim ? "animateOut" : "animateIn"
+              } 1s forwards`,
+            }}
+          />
         </button>
       </div>
-      <div className="process-desc">
+      {/* {openTab && ( */}
+      <div
+        className="process-desc"
+        style={{
+          animation: openTab ? "fadeIn 1s forwards" : "fadeOut 0.2s forwards",
+        }}
+      >
         During the initial consultation, we will discuss your business goals and
         objectives, target audience, and current marketing efforts. This will
         allow us to understand your needs and tailor our services to best fit
         your requirements.
       </div>
+      {/* )} */}
     </div>
   );
 }
