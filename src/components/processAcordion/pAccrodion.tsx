@@ -1,11 +1,16 @@
 import React, { useState } from "react";
 import "./paccrodion.css";
 import { Minus, Plus } from "../../assets";
+interface Props {
+  sn: string;
+  title: string;
+  note: string;
+}
 
-function ProcessAccordion() {
-  const [open, setOpen] = useState(true);
-  const [startAnim, setAnim] = useState(true);
-  const [openTab, setOpenTab] = useState(true);
+function ProcessAccordion({ sn, title, note }: Props) {
+  const [open, setOpen] = useState(false);
+  const [startAnim, setAnim] = useState(false);
+  const [openTab, setOpenTab] = useState(false);
   return (
     <div
       className="p-acc-root"
@@ -23,8 +28,8 @@ function ProcessAccordion() {
         }}
       >
         <div className="p-acc-header-title">
-          <div>01</div>
-          <div>Consultation</div>
+          <div>{sn}</div>
+          <div>{title}</div>
         </div>
         <button
           className="process-button"
@@ -51,10 +56,7 @@ function ProcessAccordion() {
           animation: openTab ? "fadeIn 1s forwards" : "fadeOut 0.2s forwards",
         }}
       >
-        During the initial consultation, we will discuss your business goals and
-        objectives, target audience, and current marketing efforts. This will
-        allow us to understand your needs and tailor our services to best fit
-        your requirements.
+        {note}
       </div>
       {/* )} */}
     </div>

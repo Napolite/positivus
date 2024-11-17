@@ -6,3 +6,7 @@
 .work-p-tabs {
   margin-top: 80px;
 }
+
+.work-p-tabs > div {
+  margin-bottom: 30px;
+}
