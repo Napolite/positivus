@@ -1,0 +1,43 @@
+.p-acc-root {
+  max-width: 100%;
+  padding: 41px 60px;
+  height: 197px;
+  box-shadow: 0px 5px black;
+  background-color: var(--green);
+  border-radius: 45px;
+  border: 1px solid var(--black);
+}
+
+.p-acc-header {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid var(--black);
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.p-acc-header-title {
+  display: flex;
+  align-items: center;
+}
+
+.p-acc-header-title > div:nth-child(1) {
+  font-size: 60px;
+  margin-right: 25px;
+}
+
+.p-acc-header-title > div:nth-child(2) {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.process-desc {
+  font-size: 18px;
+  width: 1114px;
+}
+
+.process-button {
+  background-color: transparent;
+  border: none;
+  /* outline: none; */
+}

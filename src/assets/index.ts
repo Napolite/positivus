@@ -16,6 +16,8 @@ import Tab5 from "./images/tab5.svg";
 import Tab6 from "./images/tab6.svg";
 import MIH from "./images/mih.svg";
 import LM from "./images/lm-arrow.svg";
+import Minus from "./images/minus.svg";
+import Plus from "./images/Plus icon.svg";
 
 export {
   PositivusLogo,
@@ -36,4 +38,6 @@ export {
   Tab6,
   MIH,
   LM,
+  Minus,
+  Plus,
 };

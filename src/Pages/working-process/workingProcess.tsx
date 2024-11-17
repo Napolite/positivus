@@ -1,3 +1,4 @@
+import ProcessAccordion from "../../components/processAcordion/pAccrodion";
 import Title from "../../components/Title/title";
 
 import "./workinProcess.css";
@@ -9,6 +10,9 @@ function WorkingProcess() {
         titleHeader={"Our Working Process"}
         titleText={"Step-by-Step Guide to Achieving Your Business Goals"}
       />
+      <div className="work-p-tabs">
+        <ProcessAccordion />
+      </div>
     </div>
   );
 }
