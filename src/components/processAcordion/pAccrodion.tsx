@@ -13,6 +13,7 @@ function ProcessAccordion() {
         animation: openTab
           ? "expandHeight 0.5s forwards"
           : "contractHeight 0.5s forwards",
+        background: open ? "var(--green)" : "var(--grey)",
       }}
     >
       <div
